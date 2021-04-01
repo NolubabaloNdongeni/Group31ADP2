@@ -7,10 +7,11 @@ package za.ac.cput.group31adp2;
 
 /**
  *
- * @author nndon
+ * @author 219319464 Ndongeni Nolubabalo
  */
 public class GroupWork 
 {
+ 217094740
 
     static void main(String[] args) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -29,6 +30,19 @@ public class GroupWork
                }
            }
        }
+
+      public int multiply(String num1, String num2, String num3){
+     
+      int val1 = Integer.parseInt(num1);
+      int val2 = Integer.parseInt(num2);
+      int val3 = Integer.parseInt(num3);
+        val3 = val1;
+  
+      
+      return val1 * val2 * val3;
+  }
+
+ main
 }
         
 
