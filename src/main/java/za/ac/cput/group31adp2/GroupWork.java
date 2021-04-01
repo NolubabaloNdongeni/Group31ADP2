@@ -11,5 +11,15 @@ package za.ac.cput.group31adp2;
  */
 public class GroupWork 
 {
-    
+      public int multiply(String num1, String num2, String num3){
+     
+      int val1 = Integer.parseInt(num1);
+      int val2 = Integer.parseInt(num2);
+      int val3 = Integer.parseInt(num3);
+        val3 = val1;
+  
+      
+      return val1 * val2 * val3;
+  }
+
 }
