@@ -7,8 +7,9 @@ package za.ac.cput.group31adp2;
 
 /**
  *
- * @author nndon
+ * @author 219319464 Ndongeni Nolubabalo
  */
-public class GroupWork {
+public class GroupWork 
+{
     
 }
