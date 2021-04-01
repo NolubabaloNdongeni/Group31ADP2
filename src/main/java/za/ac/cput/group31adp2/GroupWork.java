@@ -11,6 +11,26 @@ package za.ac.cput.group31adp2;
  */
 public class GroupWork 
 {
+ 217094740
+
+    static void main(String[] args) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+       public int square(int x)
+       {
+           return x*x;
+       }
+       public void countA(String word)
+       {
+           int count = 0;
+           for(int i = 0; i < word.length(); i++)
+           {
+               if(word.charAt(i) =='a'|| word.charAt(i)=='A'){
+                   count++;
+               }
+           }
+       }
+
       public int multiply(String num1, String num2, String num3){
      
       int val1 = Integer.parseInt(num1);
@@ -22,4 +42,8 @@ public class GroupWork
       return val1 * val2 * val3;
   }
 
+ main
 }
+        
+
+
